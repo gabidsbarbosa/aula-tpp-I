@@ -14,16 +14,16 @@ const multiplicar = (valor1, valor2) => {
     console.log(`resultado: ${valor1 * valor2}`)
 }
 
-exports.calculo = multiplicar
+exports.mult = multiplicar
 
 const subtrair = (valor1, valor2) => {
     console.log(`resultado: ${valor1 - valor2}`)
 }
 
-exports.calculo = subtrair
+exports.sub = subtrair
 
 const dividir = (valor1, valor2) => {
     console.log(`resultado: ${valor1 / valor2}`)
 }
 
-exports.calculo = dividir
+exports.div = dividir
